@@ -84,12 +84,12 @@ function modCss() {
     (0, _cssFramework2.default)(document.body).addClass('bgcolor_red').addClass('bgcolor_blue').removeClass('bgcolor_red');
 
     // обращение через селектор
-    (0, _cssFramework2.default)('.sss').addClass("active");
+    (0, _cssFramework2.default)('.cube').addClass("active");
 
     // обращение через id
     (0, _cssFramework2.default)('#mcl').addClass('visited').toggleClass("active");
 
-    console.log((0, _cssFramework2.default)('.sss').hasClass('visited'));
+    console.log((0, _cssFramework2.default)('.cube').hasClass('visited'));
 }
 
 /***/ }),
